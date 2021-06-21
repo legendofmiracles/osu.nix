@@ -53,7 +53,7 @@ Add it as a module to your configuration and enable it along with PipeWire:
       quantum = 32;
       rate = 48000;
     };
-  }
+  };
   
   # make pipewire realtime-capable
   security.rtkit.enable = true;
